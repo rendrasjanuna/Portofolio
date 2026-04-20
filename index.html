@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Rendra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">Rendra</div>
+        
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#skill">Keahlian</a></li>
+          <li><a href="#projects">Proyek</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+        
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Halo, saya <span class="highlight">Rendra</span></h1>
+        <p class="subtitle">Web developer & UI/UX Designer</p>
+        <p class="description">Membangun website modern, rensponsive dan user friendly dengan HTML, CSS, JavaScript dan Framework terkini</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">Lihat Proyek Saya</a>
+          <a href="#contact" class="btn secondary">Hubungi Saya</a>
+        </div>
+        <div class="social-links">
+         <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+         <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+         <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+         <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="Rendra.jpg" alt="foto profil">
+      </div>
+    </section>
+    
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">Tentang saya</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Saya adalah seorang Web developer berbasis di Bekasi dengan pengalaman lebih dari 2 tahun dalam membangun aplikasi web, saya passionate dengan teknologi front-end dan selalu ingin menciptakan pengalaman pengguna yang menyenangkan</p>
+            <p>Saat ini fokus pada pengembangan web responsif menggunakan HTML, CSS, JavaScript, React dan Tailwind CSS</p>
+            <div class="about-info">
+              <p><strong>Lokasi :</strong> Bekasi, Indonesia</p>
+              <p><strong>Email :</strong> Rendrasjanuna@gmail.com</p>
+              <p><strong>Freelance :</strong> Tersedia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="skill" class="section bg-dark">
+      <div class="container">
+        <h2 class="section-title">Keahlian</h2>
+        <div class="skills-grid">
+          <div class="skill-card">HTML5</div>
+          <div class="skill-card">CSS3  / Tailwind</div>
+          <div class="skill-card">JavaScript</div>
+          <div class="skill-card">React.js</div>
+          <div class="skill-card">Responsive Design</div>
+          <div class="skill-card">Git & Github</div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Proyek terbaru</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="https://via.placeholder.com/600x400/3b82f6/ffffff?text=E-Commerce" alt="Proyek 1">
+            <div class="project-info">
+              <h3>E-commerce Platform</h3>
+              <p>Website belanja online lengkap dengan cart dan payment gateway simulation.</p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Tailwind</span>
+              </div>
+              <a href="#" class="project-links">Lihat demo</a>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <img src="https://via.placeholder.com/600x400/10b981/ffffff?text=Dashboard" alt="Proyek 2">
+            <div class="project-info">
+              <h3>Admin Dashboard</h3>
+              <p>Dashboard analitik modern untuk manajemen data perusahaan.</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Chart.js</span>
+              </div>
+              <a href="#" class="project-links">Lihat demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="section bg-dark">
+      <div class="container">
+        <h2 class="section-title">Hubungi saya</h2>
+        <div class="contact-content">
+          <p>Mari berkolaborasi! kirim pesan atau Email untuk diskusi proyek</p>
+          <form class="contact-form">
+            <input type="text" placeholder="Nama anda" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Masukan pesan anda..." rows="6" required></textarea>
+            <button type="submit" class="btn-primary">Kirim pesan</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Rendra. All right reserved.</p>
+      </div>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
